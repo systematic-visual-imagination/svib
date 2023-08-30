@@ -1,0 +1,58 @@
+{
+  "image_filename": "000004378919141074",
+  "objects": [
+    {
+      "shape": "NewellTeapot",
+      "size": 2.0,
+      "material": "data/materials/PoliigonMetalSpottyDiscoloration001.blend",
+      "3d_coords": [
+        2.6738388538360596,
+        -0.7910723686218262,
+        2.0
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        85,
+        56,
+        7.890347957611084
+      ]
+    },
+    {
+      "shape": "NewellTeapot",
+      "size": 1.5,
+      "material": "data/materials/PoliigonBricksPaintedWhite001.blend",
+      "3d_coords": [
+        -0.9910212755203247,
+        -0.27915334701538086,
+        1.5
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        53,
+        44,
+        10.817667961120605
+      ]
+    }
+  ],
+  "ground_material": "data/materials/PoliigonBricksPaintedWhite001.blend",
+  "Lamp_Key": [
+    7.306585788726807,
+    -2.5311696529388428,
+    3.5388035774230957
+  ],
+  "Lamp_Back": [
+    -1.4517099857330322,
+    2.8594415187835693,
+    6.635021686553955
+  ],
+  "Lamp_Fill": [
+    -5.089305400848389,
+    -3.04736065864563,
+    2.7860729694366455
+  ],
+  "Camera": [
+    7.214636325836182,
+    -6.289734840393066,
+    5.598618984222412
+  ]
+}

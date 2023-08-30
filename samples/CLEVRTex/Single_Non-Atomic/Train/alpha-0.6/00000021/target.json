@@ -1,0 +1,58 @@
+{
+  "image_filename": "000003250388134447",
+  "objects": [
+    {
+      "shape": "Sphere",
+      "size": 2.0,
+      "material": "data/materials/PoliigonChainmailCopperRoundedThin001.blend",
+      "3d_coords": [
+        -0.3745373487472534,
+        1.725612998008728,
+        2.0
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        77,
+        33,
+        10.976222038269043
+      ]
+    },
+    {
+      "shape": "Sphere",
+      "size": 1.5,
+      "material": "data/materials/PoliigonChainmailCopperRoundedThin001.blend",
+      "3d_coords": [
+        -0.16937251389026642,
+        -2.6705541610717773,
+        1.5
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        29,
+        55,
+        8.443825721740723
+      ]
+    }
+  ],
+  "ground_material": "data/materials/PoliigonChainmailCopperRoundedThin001.blend",
+  "Lamp_Key": [
+    6.342588424682617,
+    -2.3520829677581787,
+    5.1595458984375
+  ],
+  "Lamp_Back": [
+    -0.49429070949554443,
+    1.8118977546691895,
+    6.653011798858643
+  ],
+  "Lamp_Fill": [
+    -4.242128849029541,
+    -4.846100330352783,
+    3.4694552421569824
+  ],
+  "Camera": [
+    6.991024017333984,
+    -6.340082168579102,
+    4.856082916259766
+  ]
+}

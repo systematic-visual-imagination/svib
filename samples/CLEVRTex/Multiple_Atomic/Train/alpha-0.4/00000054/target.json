@@ -1,0 +1,58 @@
+{
+  "image_filename": "000007487838966378",
+  "objects": [
+    {
+      "shape": "Torus",
+      "size": 1.5,
+      "material": "data/materials/PoliigonWoodFlooring061.blend",
+      "3d_coords": [
+        2.3085005283355713,
+        1.175092101097107,
+        1.5
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        99,
+        51,
+        9.603543281555176
+      ]
+    },
+    {
+      "shape": "Cone",
+      "size": 1.5,
+      "material": "data/materials/PoliigonBricksFlemishRed001.blend",
+      "3d_coords": [
+        -1.296410322189331,
+        0.21942777931690216,
+        1.5
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        55,
+        41,
+        11.399932861328125
+      ]
+    }
+  ],
+  "ground_material": "data/materials/PoliigonBricksPaintedWhite001.blend",
+  "Lamp_Key": [
+    6.087244510650635,
+    -2.6030266284942627,
+    4.896676540374756
+  ],
+  "Lamp_Back": [
+    -1.2738326787948608,
+    2.509413480758667,
+    5.214589595794678
+  ],
+  "Lamp_Fill": [
+    -4.271727085113525,
+    -3.1186790466308594,
+    2.5283966064453125
+  ],
+  "Camera": [
+    7.292881965637207,
+    -6.620119571685791,
+    5.146880149841309
+  ]
+}

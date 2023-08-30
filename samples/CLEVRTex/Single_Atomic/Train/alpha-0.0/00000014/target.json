@@ -1,0 +1,58 @@
+{
+  "image_filename": "000001768112575486",
+  "objects": [
+    {
+      "shape": "Sphere",
+      "size": 1.5,
+      "material": "data/materials/PoliigonBricksPaintedWhite001.blend",
+      "3d_coords": [
+        -1.6689985990524292,
+        0.40800076723098755,
+        1.5
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        55,
+        40,
+        11.65990924835205
+      ]
+    },
+    {
+      "shape": "Cube",
+      "size": 1.0,
+      "material": "data/materials/PoliigonRoofTilesTerracotta004.blend",
+      "3d_coords": [
+        -2.695037603378296,
+        -2.112651824951172,
+        1.0
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        22,
+        49,
+        11.1661376953125
+      ]
+    }
+  ],
+  "ground_material": "data/materials/PoliigonWoodFlooring061.blend",
+  "Lamp_Key": [
+    7.321344375610352,
+    -3.0153045654296875,
+    4.163819313049316
+  ],
+  "Lamp_Back": [
+    -1.9534597396850586,
+    2.227522373199463,
+    4.935903549194336
+  ],
+  "Lamp_Fill": [
+    -3.6921803951263428,
+    -4.075592517852783,
+    3.874744415283203
+  ],
+  "Camera": [
+    7.5791192054748535,
+    -6.198108673095703,
+    4.887165069580078
+  ]
+}

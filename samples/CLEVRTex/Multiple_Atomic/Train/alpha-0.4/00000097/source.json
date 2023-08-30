@@ -1,0 +1,58 @@
+{
+  "image_filename": "000014224739713377",
+  "objects": [
+    {
+      "shape": "Cone",
+      "size": 1.5,
+      "material": "data/materials/PoliigonBricksFlemishRed001.blend",
+      "3d_coords": [
+        0.06789310276508331,
+        -2.16804575920105,
+        1.5
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        40,
+        55,
+        9.633514404296875
+      ]
+    },
+    {
+      "shape": "Suzanne",
+      "size": 1.5,
+      "material": "data/materials/PoliigonFabricFleece001.blend",
+      "3d_coords": [
+        -0.3045141100883484,
+        1.525032877922058,
+        1.5
+      ],
+      "rotation": 0.0,
+      "pixel_coords": [
+        76,
+        42,
+        11.86082649230957
+      ]
+    }
+  ],
+  "ground_material": "data/materials/PoliigonMetalSpottyDiscoloration001.blend",
+  "Lamp_Key": [
+    6.093459606170654,
+    -3.36281156539917,
+    3.938598394393921
+  ],
+  "Lamp_Back": [
+    -1.2019212245941162,
+    2.286846160888672,
+    5.538179397583008
+  ],
+  "Lamp_Fill": [
+    -4.694689750671387,
+    -3.7132301330566406,
+    2.8914883136749268
+  ],
+  "Camera": [
+    7.909875869750977,
+    -6.189857482910156,
+    5.775082588195801
+  ]
+}
