@@ -118,7 +118,7 @@ if __name__ == '__main__':
     parser.add_argument('--save_path', default='data/')
 
     parser.add_argument('--num_train', type=int, default=64000)
-    parser.add_argument('--num_test', type=int, default=12800)
+    parser.add_argument('--num_test', type=int, default=8000)
 
     parser.add_argument('--train_ratios', type=float, nargs='+', default=[0.2 * i for i in range(4)])
     parser.add_argument('--test_ratio', type=float, default=0.2)

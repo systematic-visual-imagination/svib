@@ -9,8 +9,6 @@ from spriteworld.sprite import Sprite
 import os
 import cv2
 
-from distinctipy import distinctipy
-
 import math
 import json
 
@@ -37,25 +35,6 @@ def sort_and_render(renderer, pairs, COLORS):
         sprite._color = old_color
 
     return img, mask
-
-def generate_colors(Att_N):
-    split_n = math.floor((Att_N + 2)**(1/3))
-
-    n1 = split_n**3 - 2
-    n2 = Att_N - n1 # Att_N = n1 + n2
-    
-    if split_n > 1:
-        split_c = 1 / (split_n - 1)
-        axis_c = [i * split_c for i in range(split_n)]
-        colors = np.array(np.meshgrid(axis_c, axis_c, axis_c)).T.reshape(-1,3).tolist()[1:-1]
-        colors += distinctipy.get_colors(n2, exclude_colors = colors + [WHITE, BLACK], n_attempts=0)
-    
-    else:
-        colors = distinctipy.get_colors(Att_N, n_attempts = 0)
-    
-    colors = (np.array(colors)*255).astype(int).tolist()
-
-    return colors
 
 def generate_sizes(Att_N, size_min, size_max):
     split_s = (size_max - size_min)/Att_N
