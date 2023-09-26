@@ -84,7 +84,7 @@ To make a dSprites tasks, navigate to `data_creation/dsprites` and run the follo
 sh generate.sh {rule} {save path} {train alpha} {test alpha}
 ```
 Note that:
-- The train alpha is a sequence of real numbers ranging from 0.0 to 1.0. (e.g, "0.0 0.2 0.4 0.6")
+- The train alpha is a sequence of real numbers ranging from 0.0 to 1.0. (e.g., "0.0 0.2 0.4 0.6")
 - The test alpha should be in the range of 0.0 to 1.0.
 
 ### CLEVR and CLEVRTex Tasks
