@@ -81,11 +81,11 @@ Note that:
 To make a dSprites tasks, navigate to `data_creation/dsprites` and run the following command:
 
 ```
-sh generate.sh {save path} {test alpha} {rule} {number of train instances} {number of test instances}
+sh generate.sh {rule} {save path} {train alpha} {test alpha}
 ```
 Note that:
+- The train alpha is a sequence of real numbers ranging from 0.0 to 1.0. (e.g., "0.0 0.2 0.4 0.6")
 - The test alpha should be in the range of 0.0 to 1.0.
-- The training splits are automatically generated with appropriate alpha values in increments of 0.2.
 
 ### CLEVR and CLEVRTex Tasks
 To make the CLEVR and CLEVRTex tasks, navigate to the appropriate directory i.e., `data_creation/clevr` or `data_creation/clevrtex`. Then run the following script:
