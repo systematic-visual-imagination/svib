@@ -1,4 +1,4 @@
-# Compositional Visual Imagination Benchmark
+# CVIB: Compositional Visual Imagination Benchmark
 
 - Official codebase associated with the paper *"Imagine the Unseen World: A Benchmark for Compositional Generalization in Visual World Models"* published at **NeurIPS'23**.
 - Provides code for training and evaluating the baselines; and generating datasets as discussed in the paper.
