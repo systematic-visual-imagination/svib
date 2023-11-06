@@ -5,15 +5,14 @@
 - **Project Page**: [Systematic Visual Imagination Benchmark](https://systematic-visual-imagination.github.io/)
 
 **Directory Structure Overview**
-- **`code`**: Code for training and evaluating the baselines; and generating datasets as discussed in the paper.
-  - **`configs`**: Default model hyperparameters.
-  - **`data_creation`**: Code for dataset creation.
-  - **`helpers`**: General helper functions.
-  - **`predictors`**: Decoder modules.
-  - **`representers`**: Image encoder modules referred to as *representers*.
-  - **`ssms`**: Modules for the state-space models.
-  - **`tasks`**: Main python scripts for task training and evaluation.
-- **`samples`**: Contains samples of episodes of the benchmark tasks.
+- **`configs`**: Default model hyperparameters.
+- **`data_creation`**: Code for dataset creation.
+- **`helpers`**: General helper functions.
+- **`predictors`**: Decoder modules.
+- **`representers`**: Image encoder modules referred to as *representers*.
+- **`ssms`**: Modules for the state-space models.
+- **`tasks`**: Main python scripts for task training and evaluation.
+
 
 ## Training Baselines Guide
 
